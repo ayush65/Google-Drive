@@ -1,0 +1,91 @@
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 50%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.files-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+  width: 90%;
+  align-items: center;
+  padding: 4rem;
+}
+
+.file-main-img {
+  width: 100%;
+  height: 137px;
+  position: absolute;
+  top: 0;
+  border-radius: 5px;
+}
+
+.files-div {
+  width: 211px;
+  height: 205px;
+  border: 0.1px solid #dadce0;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-files {
+  z-index: 100;
+  position: absolute;
+  width: 100px;
+  background-color: #008cba;
+  padding: 8px 20px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  margin: 1rem;
+}
+
+
+
+.button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+    margin: 1rem;
+}
+.file-img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border: 1px solid #dadce0;
+}
+
+.files-flex {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #dadce0;
+  height: 50px;
+  width: 195px;
+  border-radius: 5px;
+}

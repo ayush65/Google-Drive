@@ -1,0 +1,57 @@
+.folder-container {
+  width: 100%;
+  height: auto;
+}
+
+.items-container {
+  width: 150px;
+  height: 15px;
+  border: 0.1px solid #dadce0;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px 20px;
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
+}
+.folder-content{
+    color: grey;
+    padding: 1rem;
+    position:  absolute;
+    margin-left: 2.5rem;
+}
+
+.model-btn {
+  background-color: #3A445D;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0.1rem;
+}
+
+.model-input {
+  border: 0.1px solid #dadce0;
+  height: 10px;
+  padding: 12px;
+  margin: 1rem;
+}
+
+.folders-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+  padding: 3.5rem;
+}
+.model-content {
+  width: 150px;
+}
+
+.img-item {
+  width: 30px;
+  height: 30px;
+  margin-top: -0.5rem;
+}
