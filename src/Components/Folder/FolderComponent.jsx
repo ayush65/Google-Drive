@@ -14,7 +14,7 @@ function FolderComponent() {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (inputValue === "") {
-      alert("please provide proper details")
+      alert("please provide proper details");
     } else {
       const newItem = {
         id: Date.now(),
@@ -43,7 +43,7 @@ function FolderComponent() {
       <p className="folder-content">Folders</p>
       <div>
         <button className="button" onClick={() => setIsModalOpen(true)}>
-          Upload folder
+          Create folder
         </button>
       </div>
 
@@ -60,7 +60,7 @@ function FolderComponent() {
                 className="model-content model-input"
               />
               <button type="submit" className="model-content model-btn">
-                Add Item
+                Add Folder
               </button>
               <button
                 onClick={handleCloseModal}

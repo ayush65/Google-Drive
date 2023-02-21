@@ -43,6 +43,10 @@
   border-radius: 5px;
 }
 
+.files-div:hover {
+  border: 1px solid #888888;
+}
+
 .btn-files {
   z-index: 100;
   position: absolute;
@@ -54,8 +58,6 @@
   right: 0;
   margin: 1rem;
 }
-
-
 
 .button {
   background-color: #008cba;
@@ -69,7 +71,8 @@
   position: absolute;
   z-index: 0;
   right: 0;
-    margin: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
 }
 .file-img {
   width: 30px;
@@ -88,4 +91,11 @@
   height: 50px;
   width: 195px;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .files-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }

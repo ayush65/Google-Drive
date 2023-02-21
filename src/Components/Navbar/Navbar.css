@@ -1,10 +1,10 @@
-.navbar-container{
-    width: 98.5vw;
-    height: 60px;
-    border-bottom:0.1px solid #dadce0; 
+.navbar-container {
+  width: 98.5vw;
+  height: 60px;
+  border-bottom: 0.1px solid #dadce0;
 }
 
-.navbar-p{
-    padding: 1rem;
-    font-size: 1.5rem;;
+.navbar-p {
+  padding: 1rem;
+  font-size: 1.5rem;
 }

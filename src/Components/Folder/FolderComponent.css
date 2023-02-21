@@ -13,16 +13,22 @@
   position: relative;
   display: flex;
   gap: 0.5rem;
+  cursor: pointer;
 }
-.folder-content{
-    color: grey;
-    padding: 1rem;
-    position:  absolute;
-    margin-left: 2.5rem;
+
+.items-container:hover {
+  border: 1px solid #888888;
+}
+
+.folder-content {
+  color: grey;
+  padding: 1rem;
+  position: absolute;
+  margin-left: 2.5rem;
 }
 
 .model-btn {
-  background-color: #3A445D;
+  background-color: #3a445d;
   border: none;
   color: white;
   padding: 8px 20px;
@@ -54,4 +60,10 @@
   width: 30px;
   height: 30px;
   margin-top: -0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .folders-container {
+    grid-template-columns: auto;
+  }
 }
